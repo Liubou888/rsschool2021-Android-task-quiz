@@ -4,7 +4,6 @@ import android.content.Context
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
-import com.rsschool.quiz.R
 import com.rsschool.quiz.databinding.FragmentSubmitBinding
 
 private const val PERCENT_BUNDLE_KEY = "PERCENT_BUNDLE_KEY"

@@ -6,11 +6,14 @@ import android.util.Log
 import android.view.View
 import android.widget.RadioButton
 import androidx.fragment.app.Fragment
+import com.rsschool.quiz.R.layout
+import com.rsschool.quiz.R.string
 import com.rsschool.quiz.databinding.FragmentQuizBinding
+
 
 const val QUESTION_BUNDLE_KEY = "QUESTION_BUNDLE_KEY"
 
-class QuestionFragment : Fragment(R.layout.fragment_quiz) {
+class QuestionFragment : Fragment(layout.fragment_quiz) {
     private var _binding: FragmentQuizBinding? = null
     private val binding get() = _binding!!
     private lateinit var mainActivityInterface: MainActivityInterface
@@ -33,12 +36,12 @@ class QuestionFragment : Fragment(R.layout.fragment_quiz) {
                     binding.toolbar.navigationIcon = null
                     binding.previousButton.isEnabled = false
                 }
-                5 -> binding.nextButton.text = getString(R.string.submit)
+                5 -> binding.nextButton.text = getString(string.submit)
             }
 
 
             with(binding) {
-                toolbar.title = getString(R.string.question_num, question.id)
+                toolbar.title = getString(string.question_num, question.id)
                 tvQuestion.text = question.question
                 optionOne.text = question.variantsMap[0]
                 optionTwo.text = question.variantsMap[1]
