@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="question_num">Question %d</string>
+    <string name="result">Your result %d%%</string>
+    <string name="share">Share</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+
+</resources>

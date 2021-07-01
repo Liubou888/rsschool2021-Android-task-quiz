@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme_Quiz_Third"></style>
+
+    <style name="Theme_Quiz_Forth"></style>
+
+    <style name="Theme_Quiz_Fifth"></style>
+
+    <style name="ControlButtons"></style>
+</resources>
